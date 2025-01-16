@@ -31,7 +31,7 @@ namespace SZGYA13C_Setahajok
 
             var kisHajok = hajo.Where(h => h.MaxUtas < 6).ToList();
 
-            File.WriteAllLines(@"..\..\..\src\kisHajok.txt", (IEnumerable<string>)kisHajok);
+            File.WriteAllLines(@"..\..\..\src\kisHajok.txt", $"{kisHajok}");
             
         }
 

@@ -34,7 +34,7 @@
            
         </Grid>
 
-        <Image Source="src/hajo.jpg" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="auto" Width="400"/>
+        <Image x:Name="IMG" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="auto" Width="400"/>
 
     </Grid>
 </Window>

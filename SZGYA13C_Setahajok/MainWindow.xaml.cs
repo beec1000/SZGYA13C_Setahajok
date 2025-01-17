@@ -24,7 +24,11 @@ namespace SZGYA13C_Setahajok
 
             hajo = Hajo.Fromfile(@"..\..\..\src\hajo.txt");
 
-            foreach(var h in hajo)
+            var imgSrc = new BitmapImage(new Uri("src/hajo.jpg", UriKind.Relative));
+            IMG.Source = imgSrc;
+
+
+            foreach (var h in hajo)
             {
                 hajoNev.Items.Add(h.Nev);
             }
